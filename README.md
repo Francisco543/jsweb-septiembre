@@ -1,4 +1,3 @@
 # jsweb-septiembre
-curso java standar web eduacion it
-
-clase1: creacion de repositorio git
+curso java standar web educacion it
+clase1: creación de repositorio git

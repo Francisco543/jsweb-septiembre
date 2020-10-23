@@ -6,15 +6,18 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>artefacto padre de los proyectos del curso</name>
-  <properties>
   
-  <proyect.build.sourceEncoding>UTF-8</proyect.build.sourceEncoding>
-  <maven.compiler.source>1.8</maven.compiler.source>
-  <maven.compiler.target>1.8</maven.compiler.target>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <mysql.version>8.0.21</mysql.version>
   </properties>
   
   <modules>
     <module>app-web</module>
     <module>app-domain</module>
+    <module>app-dao</module>
+    <module>app-service</module>
   </modules>
 </project>
